@@ -17,3 +17,5 @@
 // 7.Join = converts to string.
 // 8. Slice(value to remove from,value remove upto but don't include)= returns new array and original value remains unchanged. Use when you need to extract a portion of an array without modifying it.
 // 9. Splice(value to delete from, number of value to delete) = returns new array with deleted one and original value changed.Use when you need to add, remove, or replace elements within an array.
+// => 18:25 slice() does not manupulate main array.
+// => splice() manupulate original array.
