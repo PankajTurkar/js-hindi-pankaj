@@ -1,8 +1,10 @@
 /**
- * //Premitive data types: 7 types
+ * //Premitive data types (stack memory): 7 types
  * String, Number, boolean,null, undefined, symbol BigInt
+ * In Premitive you will ge the copy of the variable for work
  * 
- * Reference data types: Array Objects, Functions
+ * Reference data types (heap memory): Array Objects, Functions
+ * here you will ge the refernece i.e. original value for work
  * 
  */
 
@@ -21,3 +23,4 @@ const myfunction = function(){
     
 
 }
+//******************************************88 */
