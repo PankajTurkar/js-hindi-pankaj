@@ -41,4 +41,26 @@ console.log(typeof hero);
 
 //********************************************************* */
 
-// stack (premitive) and Heap (non-premitive)
+// stack (premitive - refernce) and Heap (non-premitive - )
+// stack (premitive - refernce)  - value are changing
+
+let myyoutbename = "chai"
+
+let anotherName = myyoutbename
+
+anotherName = "ChaiAurCode"
+
+console.log(anotherName);
+
+//Heap (non-premitive - )
+
+let userOne ={
+    name : "pankaj",
+    email :"pankaj@yopmail.com"
+}
+let userTwo = userOne
+userTwo.email = "pankaj@yopmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
