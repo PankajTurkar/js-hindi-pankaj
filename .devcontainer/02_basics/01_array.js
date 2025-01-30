@@ -23,7 +23,8 @@
  const array1 = [0,1,2,3,4,5,6]
 
 // //What is Shallow Copy and Deep copy?
-// // -> Shallow copy of an object is a copy whose property share the same refernece. means if you change anything it will update teh orginal value
+// // -> Shallow copy of an object is a copy whose property share the same refernece. 
+// means if you change anything it will update teh orginal value
 // //Deep Copy of an object is a copy whose property does not share the same refernces.
 
 // //Array methods

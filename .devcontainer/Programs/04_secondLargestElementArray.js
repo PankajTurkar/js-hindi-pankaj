@@ -1,7 +1,7 @@
-const arr = [1, 2, 33, 4, 5];
+const arr = [1, 2, 33, 4, 11,55];
 
-let largest = -Infinity;
-let secondLargest = -Infinity;
+let largest = 0;
+let secondLargest = 0;
 
 for (const num of arr) {
   if (num > largest) {

@@ -21,19 +21,17 @@ console.log("*********************** using math function*******************");
 const arr1 = [2, 3, 4, 55, 66];
 
 // Find the maximum value
-const max1 = Math.max(...arr);
+const max1 = Math.max(...arr1);
 
 // Find the minimum value
-const min1 = Math.min(...arr);
+const min1 = Math.min(...arr1);
 
 console.log("Maximum value:", max1); // Output: 66
 console.log("Minimum value:", min1); // Output: 2
 
 /**
  * Explanation:
-Spread Operator (...):
-
-Expands the array elements into individual arguments.
+Spread Operator (...): Expands the array elements into individual arguments.
 Example: Math.max(...arr) becomes Math.max(1, 2, 3, 4, 55).
 Math.max and Math.min:
 
