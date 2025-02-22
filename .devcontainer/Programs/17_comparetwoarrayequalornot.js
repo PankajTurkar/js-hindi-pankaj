@@ -1,7 +1,7 @@
 //How to compare two Arrays are Equal or Not in JavaScript
 
 arr1 =[1,2,3]
-arr2 =[1,2,4]
+arr2 =[1,3,2]
 arr3 = false;
 
 for(let num of arr1)

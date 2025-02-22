@@ -20,3 +20,10 @@ function capitalizeFirstLetter(str) {
 console.log(capitalizeFirstLetter("hello")); // Output: "Hello"
 console.log(capitalizeFirstLetter("javascript")); // Output: "Javascript"
 
+
+let sName = "pankaj"
+
+let newName = sName.charAt(0).toUpperCase() + sName.slice(1)
+
+console.log(newName)
+

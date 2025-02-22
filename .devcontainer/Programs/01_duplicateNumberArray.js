@@ -31,7 +31,7 @@ Output:
 The final array arr1 contains all the duplicate numbers.
  */
 const arrNumber =[1,2,3,2,4,6,7,8,9,5,1]
-let num=0
+
 let arr1 = []
 
 for( let i=0; i<=arrNumber.length; i++){
