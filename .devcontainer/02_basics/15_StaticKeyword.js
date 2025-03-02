@@ -1,6 +1,6 @@
 /**
  * 1. static keyword are used for memory management.
- * 2. If you want to change va;ue at pbject level , then no need change it as every places. just mark it as static
+ * 2. If you want to change value at project level , then no need change it as every places. just mark it as static
  * 3. static can be variable and methods.
  * 4. using class name we can access staic 
  * 5. it will occupy memory at once.
